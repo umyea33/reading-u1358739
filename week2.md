@@ -1,0 +1,9 @@
+Post 1
+When training AI models computation is used for two main things, searching and learning.  Searching in a big data set takes computation.  Learning and analysing the text it is given also takes a lot of computation and the more it has to learn, the more computer power that is needed.
+
+This bitter lesson is that building human knowledge into AI only helps in the short run and actually holds us back in the long run.  The thing that helps in the long run is scaling the AI based on search and learning.  This is bitter because one of the main goals in the industry is to try to get something that is like a human.  We have spent years developing this kind of thing into computers and this says that in the long run all that effort won't even matter.
+
+The question "Why did it do that?" assumes the AI thought about something similar to the way humans think about it.  Thinking about AI like this is leading us in the wrong direction.  The AI is not thinking like a human.  It is thinking like a computer using search and learning.
+
+Post 2
+AI coding assistants can now write a bunch of tests for us and we can tell it to run every single test after making each chagne.  This is super powerful if and only if we can ensure that the tests it is writing are actually testing the quality of our code.  I don't know how useful this is yet because I have little experience with this.  Getting thousands of lines of code form AI can be realy tough to manage, but I feel like the only way to ensure that everything works as expected is through tests.  In other words tests are how we prove to ourselves and others that the code we generated works.

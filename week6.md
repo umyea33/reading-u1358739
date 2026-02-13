@@ -1,0 +1,8 @@
+Reading 1:
+The two types of context engineering that involve adding to the context are Write and Select.  Write stores some information outside the current window for the AI to use later if it wants.  Select gets the stored information and brings it into the current window.  The two types of context engineering that involve removing from the context are Compress and Isolate.  Compress summarizes the current context and literally gets rid of all the stuff that it thinks it doesn't need.  Isolate gives different tasks to different agents so per agent the context is shorter.
+Three of the types of context engineering are agent directed.  These are Write, Select, and Compress.  A human is not going to be the one writing things into memory, getting things out of memory, or compressing a context.  Isolation however is done by the human.  The human is the one that has to build the mulit agent structure and decide which agent should take on certain types of tasks.
+The Write technique is going to create some file that it stores memory in.  This file will just simply be text.
+
+Reading 2:
+A bug that might be found by a fuzzer in a memory unsafe language is a simple array out of bounds bug.  If there is some array that allows the user to hit the out of bounds area then a fuzzer would likely catch this.
+A bug that might be found by a fuzzer in a memory safe language is if you had a simple divide function and it didn't check for division by 0, the fuzzer would likely try to divide by 0, then it would find this bug.

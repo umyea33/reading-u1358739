@@ -1,0 +1,5 @@
+A claude session gets spawned by continuing the while true loop.  It creates a new vm and gives all permissions to the AI on that vm.  And obviously when this happens, the context is empty.
+
+Each vm has access to a shared repository and they all work on it at the same time by each taking a different task that was defined in a file.  Each task can only be worked on by one AI at a time.  This is enforced using a locking system where a file/task is "locked" when being worked on, and unlocked when the AI is done with it.
+
+Besides writing the code, claude managed the tasks.  It knew what needed to be completed, what was already done, and what was currently being worked on.  It did this by simply having a folder containing a file for each task.  When it tried a task and failed, it would log what it tried in an unsuccessful approaches list.  Aside from this, it ran tests (that it wrote), refactored code, and resolved merge conflicts.
